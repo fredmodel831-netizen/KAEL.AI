@@ -136,23 +136,30 @@ play=swap" rel="stylesheet">
             </div> 
         </section> 
  
-        <section id="contact" class="section"> 
-            <div class="contact-wrapper"> 
-                <div class="contact-info"> 
-                    <h2>Let's build something <span class="text-gradient">Great</span>.</h2> 
-                    <p>Ready to start a new project or just want to say hi?</p> 
-                </div> 
-                <div class="card contact-card"> 
-                    <form name="contact-v2" method="POST" data-netlify="true"> 
-                        <input type="text" name="name" placeholder="Name" required> 
-                        <input type="email" name="email" placeholder="Email" required> 
-                        <textarea name="message" placeholder="Project details..." required></textarea> 
-                        <button type="submit" class="btn-submit">Launch Message</button> 
-                    </form> 
-                </div> 
+        <section id="contact" class="section">
+    <div class="contact-wrapper">
+        <div class="contact-info">
+            <h2>Let's build something <span class="text-gradient">Great</span>.</h2>
+            <p>Ready to start a new project? Drop me a message below.</p>
+        </div>
+        <div class="card contact-card">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <textarea name="message" placeholder="Your project details..." required></textarea>
+                
+                <input type="hidden" name="redirect" value="https://kael-inc.netlify.app">
+
+                <button type="submit" class="btn-submit">Send to Gmail</button>
+            </form>
+
             </div> 
-        </section> 
-    </main> 
+         </div> 
+     </section> 
+</main> 
  
     <footer> 
         <p>&copy; 2026 KAEL.AI — Built with precision.</p> 
