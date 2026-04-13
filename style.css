@@ -371,5 +371,7 @@ cursor: pointer;
     color: var(--text-high); 
     transform: translateY(-3px); 
 } 
-
- 
+.footer{
+    display :flex;
+    justify-content :center;
+}
