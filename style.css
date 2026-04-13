@@ -85,7 +85,6 @@ body::before {
     border-radius: 50px; 
 } 
  
-/* --- HERO SECTION --- */ 
 .hero { 
     height: 100vh; 
     display: flex; 
@@ -372,4 +371,5 @@ cursor: pointer;
     color: var(--text-high); 
     transform: translateY(-3px); 
 } 
+
  
